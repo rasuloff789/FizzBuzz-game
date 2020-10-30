@@ -29,6 +29,17 @@ writingForm.addEventListener('submit' , function(evt){
     return;
   }
   
+  //matematik jihatdan 3 va 5 ga bo'lingan son ya'ni ikki toq songa bir vaqtda bo'lingan son ularning ko'paytmasiga ham bo'linadi :))
+  
+  // if( writtenNumber % 15 === 0 ){
+  //   resultText.textContent = "FizzBuzz";
+  //   resultText.classList.remove('d-none');
+  //   resultText.classList.add('d-block');
+  //   minustext.classList.add('d-none');
+  //   minustext.classList.remove('d-block');
+  //   return;
+  // }
+  
   if( writtenNumber % 3 === 0){
     resultText.textContent = "Fizz";
     resultText.classList.remove('d-none');
